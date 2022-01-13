@@ -14,8 +14,9 @@ pipeUp.src = "img/pipeUp.png";
 pipeBottom.src = "img/pipeBottom.png";
 var gap = 90;
 
-document.addEventListener("keydown", moveUp);
+var inp = document.querySelector("[type='button']");
 
+inp.addEventListener("click", moveUp);
 
 function moveUp(){
     yPos -= 25;
