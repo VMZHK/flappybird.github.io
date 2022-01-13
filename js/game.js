@@ -16,7 +16,6 @@ var gap = 90;
 
 document.addEventListener("keydown", moveUp);
 
-document.addEventTarget("keydown", moveUp);
 
 function moveUp(){
     yPos -= 25;
