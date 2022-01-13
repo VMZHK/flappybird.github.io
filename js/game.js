@@ -14,7 +14,7 @@ pipeUp.src = "img/pipeUp.png";
 pipeBottom.src = "img/pipeBottom.png";
 var gap = 90;
 
-document.addEventListener("touch", moveUp);
+document.addEventListener("keydown", moveUp);
 
 
 function moveUp(){
